@@ -29,7 +29,7 @@ ZooKeeper
 
 📚 Com tudo preparado, iniciamos executando os arquivos Python no Jupyter Notebook para dar início ao projeto. Todos os códigos estão disponíveis na pasta correspondente aqui no GitHub.
 
-![Image](https://github.com/user-attachments/assets/b3a0166a-120e-486a-8c68-e0651f3b84bd)
+![Image](https://github.com/user-attachments/assets/ed0573ff-ab8d-4096-aac0-643d7fc2c662)
 
 
 Neste processo, criamos o tópico Kafka via código Python, implementamos e executamos o Kafka Producer e desenvolvemos a aplicação de monitoramento com Streamlit.
