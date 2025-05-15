@@ -2,7 +2,7 @@
 
 📚 Monitoramento de Criptomoedas em Tempo Real com Kafka, MongoDB e Streamlit
 
-Neste   projeto   vou   mostrar   um   sistema   integrado   para   monitorar   o   mercado   de criptomoedas  em  tempo  real. Usaremos  o  Apache  Kafka  para  receber  dados  de  cotações  de criptomoedas através de API. De forma assíncrona vamos consumir os dados do Kafka, filtrar e armazenar no MongoDB, para então na sequência analisar e monitorar os dados em tempo real através de uma web app criada com Streamlit.
+Neste projeto, vou mostrar um sistema integrado para monitorar o mercado de criptomoedas em tempo real. Usaremos o Apache Kafka para receber dados de cotações de criptomoedas através de uma API. De forma assíncrona, vamos consumir os dados do Kafka, filtrar e armazenar no MongoDB, para então, na sequência, analisar e monitorar os dados em tempo real através de um aplicativo web criado com Streamlit
 
 📚 Programas que irei utilizar
 
@@ -27,15 +27,15 @@ ZooKeeper
 
 
 
-📚 Com tudo preparado vamos iniciar executando os arquivo em Python para da inicio ao projeto no Jupyter notebook (Todos os codigos vão esta disponiveis na pasta aqui no GitHub).
+📚 Com tudo preparado, iniciamos executando os arquivos Python no Jupyter Notebook para dar início ao projeto. Todos os códigos estão disponíveis na pasta correspondente aqui no GitHub.
 
 ![Image](https://github.com/user-attachments/assets/b3a0166a-120e-486a-8c68-e0651f3b84bd)
 
 
-Com isso vamos criar o tópico kaflka via código python, criar e executar o kaflka producer e criar a app de monitoramento com streaming.
+Neste processo, criamos o tópico Kafka via código Python, implementamos e executamos o Kafka Producer e desenvolvemos a aplicação de monitoramento com Streamlit.
 
 
-📚 Projeto
+📚 Estrutura do Projeto
 
 
 1. Inicialização da Infraestrutura (Docker Compose)
@@ -119,11 +119,20 @@ Tabela com amostra dos dados
 
 * Funcionalidades:
 
-Exibe variação de preços ao longo do tempo
+Exibe variação de preços ao longo do tempo.
 
 Atualizações em tempo real conforme novos dados chegam ao MongoDB. Tudo isso para implementar uma arquitetura completa de pipeline de dados em tempo real, desde a coleta até a visualização, sendo ideal para monitoramento financeiro de criptomoedas.
 
 
+📚 Execução Final
 
 
+Ao executar todos os scripts, iniciamos o projeto6-app. O código cria um aplicativo interativo que permite aos usuários monitorarem os preços das criptomoedas em tempo real. Ele se conecta ao MongoDB para buscar dados históricos, aplica filtros com base na criptomoeda selecionada pelo usuário e apresenta essas informações em gráficos e tabelas. Dessa forma, proporciona uma experiência visual clara e prática para acompanhar as flutuações de preços ao longo do tempo.
+
+![Image](https://github.com/user-attachments/assets/66c64019-8c7f-41dd-a73f-fb5554b9796d)
+
+
+📚 Conclusão
+
+Este projeto demonstrou como integrar diversas tecnologias — Kafka, MongoDB, Docker e Streamlit — para construir uma solução robusta de monitoramento em tempo real de criptomoedas. A arquitetura criada permite desde a coleta contínua de dados por API, processamento e armazenamento eficiente, até a visualização dinâmica e interativa dos dados. Essa abordagem pode ser facilmente adaptada para outros contextos que exijam análise de dados em tempo real, reforçando o poder das ferramentas open source na criação de pipelines modernos e escaláveis.
 
